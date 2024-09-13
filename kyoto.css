@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    border: 1px solid red;
+    list-style: none;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.Geishas{
+    display: flex;
+    gap: 10px;
+}
+.Geishas img{
+    width: 600px;
+}
+.FushimiInariSchrein{
+    display: flex;
+    gap: 10px;
+}
+.FushimiInariSchrein img{
+    width: 600px;
+}
+.GoldenePavillom{
+    display: flex;
+    gap: 10px;
+}
+.GoldenePavillom img{
+    width: 600px;
+}
+.bambus{
+    display: flex;
+    gap: 10px;
+}
+.bambus img{
+    width: 600px;
+}
+.Kaiserstadt{
+    display: flex;
+    gap: 10px;
+}
+.Kaiserstadt img{
+    width: 600px;
+}

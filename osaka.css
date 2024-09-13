@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+
+header ul{
+    display: flex;
+    
+}
+header li{
+    list-style: none;
+    border: 1px solid red;
+    color: azure;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.Namba{
+    display: flex;
+    gap: 10px;
+}
+.Namba img{
+    width: 600px;
+}
+.Dotonbori{
+    display: flex;
+    gap: 10px;
+}
+.Dotonbori img{
+    width: 600px;
+}
+.TomboriRiverWalk{
+    display: flex;
+    gap: 10px;
+}
+.TomboriRiverWalk img{
+    width: 600px;
+}
+.Burg{
+    display: flex;
+    gap: 10px;
+}
+.Burg img{
+    width: 500px;
+}
+.abeno{
+    display: flex;
+    gap: 10px;
+}
+.abeno img{
+    width: 600px;
+}

@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    border: 1px solid red;
+    list-style: none;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.bilder img{
+    width:200px ;
+    transition: all 1s;
+    position: relative;
+}
+.r{
+    transform: rotate(30deg);
+}
+.l{
+    transform: rotate(-30deg);
+}
+.bilder img:hover{
+    transform: rotate(0deg) scale(1.2);
+    z-index: 99;
+}
+.bilder img:nth-of-type(n+2){
+    
+    left: -30px;
+}
+.bilder2 img{
+    width:200px ;
+    transition: all 1s;
+    position: relative;
+}
+.bilder2 img:hover{
+    transform: rotate(0deg) scale(1.2);
+    z-index: 99;
+}
+.bilder2 img:nth-of-type(n+2){
+    
+    left: -30px;
+}
+.bilder3 img{
+    width:200px ;
+    transition: all 1s;
+    position: relative;
+}
+.bilder3 img:hover{
+    transform: rotate(0deg) scale(1.2);
+    z-index: 99;
+}
+.bilder3 img:nth-of-type(n+2){
+    
+    left: -30px;
+}
+.bilder4 img{
+    width:200px ;
+    transition: all 1s;
+    position: relative;
+}
+.bilder4 img:hover{
+    transform: rotate(0deg) scale(1.2);
+    z-index: 99;
+}
+.bilder4 img:nth-of-type(n+2){
+    
+    left: -30px;
+}
+.bilder5 img{
+    width:200px ;
+    transition: all 1s;
+    position: relative;
+}
+.bilder5 img:hover{
+    transform: rotate(0deg) scale(1.2);
+    z-index: 99;
+}
+.bilder5 img:nth-of-type(n+2){
+    
+    left: -30px;
+}

@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    border: 1px solid red;
+    list-style: none;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.Takamatsu{
+    display: flex;
+    gap: 10px;
+}
+.Takamatsu img{
+    width: 600px;
+}
+.RitsurinGarten{
+    display: flex;
+    gap: 10px;
+}
+.RitsurinGarten img{
+    width: 600px;
+}
+.Kompira-san{
+    display: flex;
+    gap: 10px;
+}
+.Kompira-san img{
+    width: 600px;
+}
+.SchlossMatsuyama{
+    display: flex;
+    gap: 10px;
+}
+.SchlossMatsuyama img{
+    width: 600px;
+}
+.DogoOnsen{
+    display: flex;
+    gap: 10px;
+}
+.DogoOnsen img{
+    width: 600px;
+}

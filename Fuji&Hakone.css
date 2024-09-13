@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+
+header ul{
+    display: flex;
+    
+}
+header li{
+    list-style: none;
+    border: 1px solid red;
+    color: azure;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.fuji{
+    display: flex;
+    gap: 10px;
+}
+.fuji img{
+    width: 600px;
+}
+.hakone{
+    display: flex;
+    gap: 10px;
+}
+.hakone img{
+    width: 600px;
+}
+.onsen{
+    display: flex;
+    gap: 10px;
+}
+.onsen img{
+    width: 600px;
+}
+.Nationalpark{
+    display: flex;
+    gap: 10px;
+}
+.Nationalpark img{
+    width: 600px;
+}
+.HakoneSchrein{
+    display: flex;
+    gap: 10px;
+}
+.HakoneSchrein img{
+    width: 600px;
+}

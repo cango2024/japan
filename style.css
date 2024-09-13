@@ -1,0 +1,71 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+
+header ul{
+    display: flex;
+    
+}
+header li{
+    list-style: none;
+    border: 1px solid red;
+    color: azure;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+h1{
+    background-image: url("./bilder/japan-landschaft-teiche.jpg");
+    height: 400px;
+font-size: 80px;
+background-size: cover;
+background-position-y: 20%;
+font-family: "Grechen Fuemen", cursive;
+}
+.tokyo{
+    display: flex;
+    gap: 10px;
+}
+.tokyo img{
+    width: 300px;
+}
+.osaka{
+    display: flex;
+    gap: 10px;
+}
+.osaka img{
+    width: 600px;
+}
+.fuji{
+    display: flex;
+    gap: 10px;
+}
+.fuji img{
+    width: 400px;
+}
+.Shikoku{
+    display: flex;
+    gap: 10px;
+}
+.Shikoku img{
+    width: 400px;
+}
+.kyoto{
+    display: flex;
+    gap: 10px;
+}
+.kyoto img{
+    width: 400px;
+}

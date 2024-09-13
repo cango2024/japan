@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header img{
+    width: 80px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    border: 1px solid red;
+    list-style: none;
+    padding: 5px;
+}
+header li:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+.tempel{
+    display: flex;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    font-size: 50px;
+    font-family: "Grechen Fuemen", cursive;
+}
+.akihabara{
+    display: flex;
+    gap: 10px;
+}
+.akihabara img{
+width: 600px;
+}
+.akihabara p{
+    width: 600px;
+}
+.shinjuku{
+    display: flex;
+    gap: 10px;
+}
+.shinjuku img{
+    width: 600px;
+}
+.Shibuya{
+    display: flex;
+    gap: 10px;
+}
+.Shibuya img{
+    width: 600px;
+}
+.Fischmarkt{
+    display: flex;
+    gap: 10px;
+}
+.Fischmarkt img{
+    width: 600px;
+}
